@@ -4,13 +4,19 @@ import java.util.List;
 
 //Tomi Olubeko
 //Adisu Tamru
-//
+//Melat Beyene
 
-
-//The answer to question to: mystery3(6) is 6, and mystery(17) is 8.
-
+//#2
+//The answer to question two: mystery3(6) is 6, and mystery(17) is 8.
+//#4 
 //What indexes will be examined as the middle element by a binary search for each of the following target values
+//a. 103: 4,7,8,9
+//b. 30: 4,7,5,6,-7
+//c. 8: 4,1
+//d. -1: 4,1,0,-2
 
+
+//number 1 
 public class MaxOccurances {
 
 	public static void main(String[] args) {
@@ -62,7 +68,7 @@ public class MaxOccurances {
 	    return mode;
 
 	}
-	
+	//#4
 	private static boolean isMatch(int a1, int b1) {
 		return a1 == b1;
 	}
